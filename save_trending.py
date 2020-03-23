@@ -23,4 +23,4 @@ else:
 trending_json.append(trending_now)
 
 with open(path, mode='w', encoding='utf-8') as file:
-    json.dump(trending_json,file)
+    json.dump(trending_json, file)
