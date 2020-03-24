@@ -3,3 +3,4 @@ pytrends
 googletrans
 pytest
 flake8
+nbstripout
