@@ -8,7 +8,7 @@ path = '/home/boris/git/trendsetter/data/trends.json'
 
 ts = Trendsetter()
 trending_now = {'date': str(datetime.datetime.now())}
-for country in ts.countries.keys():
+for country in ts.countrycodes.keys():
     trending_now.update({country: ts.get_trending(country)})
 
 
