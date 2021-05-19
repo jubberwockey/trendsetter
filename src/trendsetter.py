@@ -99,6 +99,8 @@ class Trendsetter():
                 self.trending.update(self.trending_en)
             except JSONDecodeError:
                 warnings.warn("google translate API limit reached")
+            except:
+                warnings.warn("google translate API not working")
 
         return self.trending
 
